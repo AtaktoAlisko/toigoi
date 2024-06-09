@@ -91,7 +91,7 @@ export default function Calendar() {
 
             <style jsx global>{`
                 .calendar {
-                    width: 380px;
+                    width: 300px;
                     margin: 15px auto;
                     text-align: center;
                     font-family: 'Arial', sans-serif;
@@ -105,19 +105,19 @@ export default function Calendar() {
                     justify-content: center;
                     align-items: center;
                     background-color: #dcdcdc;
-                    padding: 15px 25px;
+                    padding: 10px 20px; /* Reduced padding */
                     border-bottom: 2px solid #c0c0c0;
                 }
                 .header h2 {
-                    margin: 0 20px;
-                    font-size: 1.5rem;
+                    margin: 0 15px; /* Reduced margin */
+                    font-size: 1.2rem; /* Reduced font size */
                     color: #333;
                 }
                 .header button {
-                    margin: 0 10px;
+                    margin: 0 5px; /* Reduced margin */
                     background-color: #e0e0e0;
                     border: none;
-                    padding: 10px;
+                    padding: 5px; /* Reduced padding */
                     border-radius: 50%;
                     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
                     cursor: pointer;
@@ -129,7 +129,7 @@ export default function Calendar() {
                 .days {
                     display: grid;
                     grid-template-columns: repeat(7, 1fr);
-                    margin: 10px 0;
+                    margin: 5px 0; /* Reduced margin */
                 }
                 .day-name,
                 .day,
@@ -137,10 +137,10 @@ export default function Calendar() {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    padding: 15px;
+                    padding: 10px; /* Reduced padding */
                     background-color: #f5f5f5; /* Set all backgrounds to light gray */
                     border-radius: 5px;
-                    margin: 2px;
+                    margin: 1px; /* Reduced margin */
                 }
                 .day-name {
                     background-color: #e0e0e0;

@@ -7,6 +7,9 @@ import bet from "../../../public/images/bet.jpeg";
 import fur from "../../../public/images/fur.jpeg";
 import konak from "../../../public/images/konak.jpeg";
 import kel from "../../../public/images/kel.jpeg";
+import AOS from 'aos';
+
+
 
 export default function ToiBagdarlamasi() {
   return (
