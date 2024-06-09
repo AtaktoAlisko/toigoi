@@ -80,7 +80,7 @@ export default function Home() {
             >
                 <p>Той салтанаты:</p>
                 <p>2 тамыз 2024 жыл</p>
-                <p>Сағат 18:00 басталады</p>
+                <p>Сағат 16:00 басталады</p>
             </div>
 
             <Calendar />
@@ -110,7 +110,7 @@ export default function Home() {
             >
                 <p>Мекен-жайымыз:</p>
                 <p className="color">Теміртау қаласы</p>
-                <p>Момышұлы көшесі</p>
+                <p>9-й микраорайон,98a</p>
                 <p className="color">Тойбастар</p>
                 <p >Мейрамханасы</p>
             </div>
