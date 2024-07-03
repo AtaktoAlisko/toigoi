@@ -15,13 +15,14 @@ function DateComponent() {
   }, []);
 
   function calculateRemainingTime() {
-    // Correct the date to August 2, 2024
-    const targetDate = new Date(2024, 7, 2);
+    const targetDate = new Date(2024, 7, 24);
     const currentTime = new Date();
     const difference = targetDate.getTime() - currentTime.getTime();
 
     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const hours = Math.floor(
+      (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
     const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 

@@ -39,11 +39,11 @@ export default function Main() {
         </div>
         <div className="flex flex-col items-center justify-center bg-gray-custom text-center text-black absolute bottom-0">
           <div className="w-screen flex flex-col gap-4 items-center py-5 justify-center">
-            <h1 className="text-4xl font">Ғ & Ш</h1>
-            <h2 className="text-3xl font">Ғалымжан Шынар</h2>
+            <h1 className="text-4xl font">Н & Н</h1>
+            <h2 className="text-3xl font">Нурлан Назира</h2>
             <div className="flex flex-row items-center gap-10">
               <div className="border border-black rotate-90 h-12"></div>
-              <h2 className="text-2xl m-0 font">02. 08. 2024</h2>
+              <h2 className="text-2xl m-0 font">31. 08. 2024</h2>
               <div className="border border-black rotate-90 h-12"></div>
             </div>
           </div>
