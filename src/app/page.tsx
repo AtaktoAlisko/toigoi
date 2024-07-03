@@ -58,7 +58,7 @@ export default function Home() {
         data-aos="fade-up"
       >
         <p>Cіз(дер)ді ұлымыз</p>
-        <h2 className="text-4xl font color ">Нұрлан</h2>
+        <h2 className="text-4xl font color ">Нурлан</h2>
         <p>мен келініміз</p>
         <h2 className="text-4xl color font">Назира</h2>
         <p>үйлену тойына арналған</p>
