@@ -15,7 +15,7 @@ function DateComponent() {
   }, []);
 
   function calculateRemainingTime() {
-    const targetDate = new Date(2024, 7, 24);
+    const targetDate = new Date(2024, 7, 31);
     const currentTime = new Date();
     const difference = targetDate.getTime() - currentTime.getTime();
 
