@@ -178,7 +178,7 @@ export default function Home() {
       </div>
       <Attendance />
 
-      <h2 className="mt-5  text-3xl color font">Байтұрсыновтар әулеті </h2>
+      <h2 className="mt-5  text-3xl color font">Досмайловтар әулеті </h2>
       <p className="text-2xl leading-relaxed mb-10 color font">
         сіздерді күтеді!
       </p>
